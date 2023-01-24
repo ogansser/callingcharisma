@@ -1,15 +1,15 @@
-baseURL: http://example.org/
+baseURL: http://callingcharisma.netlify.app
 languageCode: en-us
 theme: graysx-hugo
 title: Example Graysx Site
 params:
   address: 123 Arch B1W, GNU/Linux
-  email: hello@graysx.com
+  email: callingcharisma@gmail.com
   facebook: '#'
   favicon: assets/favicon.png
-  github: https://github.com/akatiggerx04/graysx-hugo
+  github: 
   logo: assets/img/logo.webp
-  phone: '123456'
+  phone: '++4915730703057'
   sbtoken: TOKEN_HERE
   twitter: '#'
 menu:
