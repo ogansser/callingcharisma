@@ -1,0 +1,25 @@
+baseURL: http://example.org/
+languageCode: en-us
+theme: graysx-hugo
+title: Example Graysx Site
+params:
+  address: 123 Arch B1W, GNU/Linux
+  email: hello@graysx.com
+  facebook: '#'
+  favicon: assets/favicon.png
+  github: https://github.com/akatiggerx04/graysx-hugo
+  logo: assets/img/logo.webp
+  phone: '123456'
+  sbtoken: TOKEN_HERE
+  twitter: '#'
+menu:
+  main:
+    - URL: '#about'
+      name: About
+      weight: 1
+    - URL: '#projects'
+      name: Projects
+      weight: 2
+    - URL: '#signup'
+      name: Contact
+      weight: 3
