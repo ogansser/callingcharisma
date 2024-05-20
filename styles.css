@@ -1,0 +1,21 @@
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover; /* Passt das Bild an die Bildschirmgröße an */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; /* Zentriert das Bild */
+  /* Entferne background-opacity, da es nicht existiert */
+}
+
+/* Optional: Adjust opacity with an overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1); /* Hier kannst du die Transparenz und die Farbe anpassen */
+  pointer-events: none; /* Ermöglicht es, dass der Overlay keine Mausereignisse abfängt */
+  z-index: -1; /* Stelle sicher, dass das Overlay hinter allen anderen Inhalten bleibt */
+}
